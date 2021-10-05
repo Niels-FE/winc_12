@@ -1,0 +1,29 @@
+nav {
+    width: 100%;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav li {
+    padding: 20px;
+}
+nav li:first-child {
+    padding-left: 0;
+}
+nav li:last-child {
+
+}
+nav {
+    background-color: darkblue;
+}
+.currentPage {
+    background-color: rgb(190, 205, 240);
+}
+li:hover {
+    background-color: lightblue;
+}
+input:focus {
+    border: 5px solid aqua;
+}
